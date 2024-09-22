@@ -1,0 +1,28 @@
+$blackgorund-color: rgb(233, 230, 225);
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    gap: 2rem;
+    background-color: $blackgorund-color;
+    margin: 0 auto;
+
+    h1{
+        font-size: 3rem;
+        color: rgb(138, 138, 43);
+    }
+
+    img{
+        width: 400px;
+    }
+}
